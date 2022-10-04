@@ -1,7 +1,11 @@
 package Testing;
-import static org.junit.jupiter.api.Assertions.*;
 
+import Password.Password;
+import Password.Alphabet;
+import Password.Generator;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class GeneratorTest {
 
